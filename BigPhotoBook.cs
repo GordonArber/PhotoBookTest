@@ -1,7 +1,10 @@
 ﻿namespace PhotoBookTest
 {
-    public class BigPhotoBook
+    public class BigPhotoBook : PhotoBook
     {
-        
+        public BigPhotoBook()
+        {
+            NumPages = 64;
+        }
     }
 }
